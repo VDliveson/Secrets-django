@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="card" style="width:40%; margin:auto; margin-top:5%;">
+  <div class="card-header" style="text-align:center">
+    NOTE
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">We have sent a mail to your registered email-id</h5>
+    <p class="card-text">Kindly check your mail</p>
+    <a href="{% url 'home' %}" class="btn btn-primary">Go back</a>
+  </div>
+</div>
+{% endblock  %}
